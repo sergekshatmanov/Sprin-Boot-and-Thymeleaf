@@ -14,7 +14,7 @@ public class PersonController {
         model.addAttribute("something", "Spring Boot + Thymeleaf My First Project");
         model.addAttribute("people", Arrays.asList(
                 new PersonService("Zirek", 42),
-                new PersonService("Belek", 38),
+                new PersonService("Belek", 39),
                 new PersonService("Avaz", 35),
                 new PersonService("Sergek", 33)
         ));
